@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="estilo.css" rel="stylesheet">
+</head>
+
+ <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("header.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button w3-wide">SUSCRIPCION</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="longin.html" class="w3-bar-item w3-button">LOG IN</a>
+      <a href="sobrenosotros.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i>SOBRE NOSOTROS</a>
+      <a href="clases.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i>CLASES</a>
+	  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i>INSTRUCTOR</a>    
+	  <a href="contactar.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>CONTACTAR</a>
+	    <a href="index.html" class="w3-bar-item w3-button"><!--<i class="fa fa-envelope"></i> -->INICIO</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">LOG IN</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE NOSOTROS</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">SUSCRIPCION</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTAR</a>
+</nav>
+
+<h2 style="text-align:center">¡Elige tu precio, elige tu plan! </h2>
+<!--<p style="text-align:center">Resize the browser window to see the effect.</p>-->
+
+<div class="columns">
+  <ul class="price">
+    <li class="header w3-red" >MENSUAL</li>
+	<p style="text-align:center">$ 19 AUD / mes</p>
+<p style="text-align:center">¡Ahorre tiempo, dinero y cree su cuerpo perfecto y delgado de Pilates por solo una clase de estudio!</p>
+    <li class="grey">$ 18.99</li>
+	<li>Acceso ilimitado a entrenamientos de Pilates de primer nivel, ideales para todas las edades y niveles de habilidad.</li>
+    <li>Programa de entrenamiento semanal gratuito.</li>
+    <li>Servicio al cliente receptivo y personal.</li>
+    <li>Sin compromisos. Cancele en cualquier momento
+Sin pago hasta el final de su prueba de 10 días.</li>
+
+
+  
+    <li class="grey"><a href="#" class="button w3-red">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header w3-red">ANUAL</li>
+	<p style="text-align:center">$ 149 AUD / mes</p>
+<p style="text-align:center">Ahorre $ 79 en comparación con el plan mensual cuando elige una membresía anual.</p>
+    <li class="grey">$ 148.99</li>
+	<li>Acceso ilimitado a entrenamientos de Pilates de primer nivel, ideales para todas las edades y niveles de habilidad.</li>
+    <li>Programa de entrenamiento semanal gratuito.</li>
+    <li>Servicio al cliente receptivo y personal.</li>
+    <li>Sin compromisos. Cancele en cualquier momento
+Sin pago hasta el final de su prueba de 10 días.</li>
+    
+    <li class="grey"><a href="#" class="button w3-red">Sign Up</a></li>
+  </ul>
+</div>
+
+
+<!--<div class="columns">
+  <ul class="price">
+    <li class="header w3-red">Premium</li>
+	
+    <li class="grey">$ 17.99</li>
+	<li>Acceso ilimitado a entrenamientos de Pilates de primer nivel, ideales para todas las edades y niveles de habilidad.</li>
+    <li>Programa de entrenamiento semanal gratuito.</li>
+    <li>Servicio al cliente receptivo y personal.</li>
+    <li>Sin compromisos. Cancele en cualquier momento
+Sin pago hasta el final de su prueba de 10 días.</li>
+ 
+    <li class="grey"><a href="#" class="button w3-red">Sign Up</a></li>
+  </ul>
+
+
+</div>
+-->
+</div>
+
+</body>
+</html>
